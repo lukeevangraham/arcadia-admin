@@ -1,0 +1,74 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "shortName": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.metadata"
+    },
+    "contentSections": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.feature-rows-group",
+        "sections.rich-text",
+        "sections.verse",
+        "sections.photo-showcase"
+      ]
+    },
+    "topImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "topText": {
+      "type": "richtext"
+    },
+    "serviceTimeBg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "serviceTimeText": {
+      "type": "richtext"
+    },
+    "primaryPhoto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "bottomVerse": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.verse"
+    }
+  }
+}

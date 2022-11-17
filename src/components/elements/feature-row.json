@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_elements_feature_rows",
+  "info": {
+    "displayName": "FeatureRow",
+    "icon": "equals"
+  },
+  "options": {},
+  "attributes": {
+    "smallHeading": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.button"
+    },
+    "bgImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "middleImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "topImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

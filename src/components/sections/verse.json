@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_verses",
+  "info": {
+    "displayName": "Verse",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "Reference": {
+      "type": "string"
+    }
+  }
+}
